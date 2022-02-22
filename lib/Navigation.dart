@@ -28,11 +28,7 @@ class _HomePageState extends State<HomePage> {
   var _index = 0;
   var _pages = <Widget>[
     Login(),
-    Container(
-      child: Center(
-        child: Text('hello!',),
-      ),
-    ),
+    Chating(),
     Login(),
 
   ];
